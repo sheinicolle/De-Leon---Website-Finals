@@ -56,17 +56,13 @@ p
 		text-align: center;
 		font-size: 30px;
 }
-
+.lower-right {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+	  }
 </style>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<br> <br> <br> <br> <br> <br> <br> <br> <br>
 <hr size = "2" color = "LightGoldenRodYellow">
 <table  style="table-layout: fixed; width: 100%;">
 <tr>
@@ -139,7 +135,12 @@ p
 <td style="width:33%; text-align: center;"> <font color = "LightGoldenRodYellow" size = "5">Est. 2023</b></td>
 <td style="width:33%; text-align: center;"> <font color = "LightGoldenRodYellow" size = "5">San Juan, La Union</td>
      
-
+<button onclick="showAlert()" class="lower-right">Exit</button>
+  <script>
+    function showAlert() {
+      alert("Thank you for browsing Sandy Shores Kitchen!");
+    }
+  </script>
 </body>
 
 </html>
